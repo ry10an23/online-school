@@ -448,7 +448,7 @@ img {
 *************************************/
 
 #summary {
-  background-image: url("../School/img/summary_bg.png");
+  background-image: url("../online-school/summary_bg.png");
   animation: fall 10s infinite linear;
   padding: 60px 0;
   margin-bottom: 120px;
