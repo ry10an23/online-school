@@ -25,9 +25,9 @@ function hamburgerMenu() {
     SWITCHING IMAGES
 ===================================================*/
 let mainImgs = [
-  "./img/mainvisual1.jpg",
-  "./img/mainvisual2.jpg",
-  "./img/mainvisual3.jpg",
+  "../online-schoolmainvisual1.jpg",
+  "../online-schoolmainvisual2.jpg",
+  "../online-schoolmainvisual3.jpg",
 ];
 let count = -1;
 slideShow_timer();
