@@ -747,4 +747,23 @@ img {
     font-size: 1rem;
     margin-bottom: 1rem;
   }
+  
+  /************************************ 
+  MAIN -apply-
+*************************************/
+  #apply {
+    margin-bottom: 80px;
+  }
+
+  #apply h2.section-title {
+    font-size: 1.5rem;
+  }
+
+  #apply p {
+    font-size: 1rem;
+  }
+
+  #apply a.apply-btn {
+    font-size: 1.5rem;
+  }
 
