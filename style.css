@@ -713,3 +713,38 @@ img {
   #review .student img {
     margin-top: 15px;
   }
+  
+  /************************************ 
+  MAIN -summary-
+*************************************/
+  #summary {
+    margin-bottom: 80px;
+  }
+  #summary .reasons {
+    /* border: 1px solid red; */
+    display: block;
+    justify-content: center;
+  }
+
+  #summary .reasons div {
+    padding: 30px;
+    margin-bottom: 32px;
+  }
+
+  #summary .reasons div:last-child {
+    margin-bottom: 0;
+  }
+
+  #summary .reasons p {
+    text-align: center;
+  }
+
+  .jp {
+    font-size: 1.5rem;
+  }
+
+  .en {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
