@@ -766,4 +766,42 @@ img {
   #apply a.apply-btn {
     font-size: 1.5rem;
   }
+  
+  /************************************ 
+  FOOTER
+*************************************/
+  #footer .course-list {
+    flex-wrap: wrap;
+  }
 
+  #footer .course-list .menu li {
+    width: 100%;
+  }
+
+  #footer .course-list li {
+    width: 50%;
+  }
+  #footer .course-list > li:nth-child(1),
+  #footer .course-list > li:nth-child(2) {
+    margin-bottom: 30px;
+  }
+
+/************************************ 
+  FOOTER
+*************************************/
+  #footer .course-list {
+    flex-wrap: wrap;
+  }
+
+  #footer .course-list .menu li {
+    width: 100%;
+  }
+
+  #footer .course-list li {
+    width: 50%;
+  }
+  #footer .course-list > li:nth-child(1),
+  #footer .course-list > li:nth-child(2) {
+    margin-bottom: 30px;
+  }
+ }
