@@ -668,3 +668,48 @@ img {
   #reason p span:nth-child(2) {
     font-size: 1.125rem;
   }
+  
+  /************************************ 
+  MAIN -review-
+*************************************/
+  #review {
+    margin-bottom: 80px;
+  }
+
+  #review .left {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #review .right {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #review .left .comment {
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+
+  #review .left .comment::before {
+    top: 100%;
+    margin-left: calc(50% - 17px);
+    border: 15px solid transparent;
+    border-top: 15px solid #e8d9ff;
+  }
+
+  #review .right .comment {
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+
+  #review .right .comment::before {
+    top: 100%;
+    margin-right: calc(50% - 17px);
+    border: 15px solid transparent;
+    border-top: 15px solid #e8d9ff;
+  }
+
+  #review .student img {
+    margin-top: 15px;
+  }
