@@ -38,7 +38,7 @@ function slideShow_timer() {
   } else {
     count++;
   }
-  document.querySelector(".slidePic").src = mainImgs[count];
+  document.querySelector(".slidePic").src = /mainImgs[count];
   setTimeout("slideShow_timer()", 4000);
 }
 
