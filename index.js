@@ -24,20 +24,21 @@ function hamburgerMenu() {
 /*=================================================
     SWITCHING IMAGES
 ===================================================*/
-let mainImgs = [
-  "../online-schoolmainvisual1.jpg",
-  "../online-schoolmainvisual2.jpg",
-  "../online-schoolmainvisual3.jpg",
-];
+let mainImgs = new Array(
+  "./img/mainvisual1.jpg",
+  "./img/mainvisual2.jpg",
+  "./img/mainvisual3.jpg"
+);
 let count = -1;
 slideShow_timer();
 
 function slideShow_timer() {
-  let slidePic = document.querySelector(".slidePic");
-
-  count++;
-  if (count == mainImgs.length) count = 0;
-  slidePic.src = mainImgs[count];
+  if (count == 2) {
+    count = 0;
+  } else {
+    count++;
+  }
+  document.querySelector(".slidePic").src = mainImgs[count];
   setTimeout("slideShow_timer()", 4000);
 }
 
